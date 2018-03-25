@@ -1,0 +1,8 @@
+WSA 함수
+
+소켓 프로그래밍용 
+WSA 접두어가 붙은 함수로 소켓 생성과 데이터 통신에 사용
+
+WSAStartup(), WSACleanup() WSASocket(), WSAccept(), WSAconnect(), WSASend(), WSARecv() 등등
+
+TextRPG 프로젝트 에서는 WSAStartup(), WSACleanup()만 사용

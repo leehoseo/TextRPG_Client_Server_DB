@@ -5,6 +5,14 @@ VisualStudioVersion = 15.0.27428.2011
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Client", "Client\Client.vcxproj", "{87D46016-6968-4B22-B8DA-34546FA73FE2}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Server", "Server\Server.vcxproj", "{64EB0FF2-136F-482C-A83F-41A6A99C9ECD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C88E212E-AF29-4FDA-BD8C-AC158B117A8A}"
+	ProjectSection(SolutionItems) = preProject
+		프로젝트 개요.txt = 프로젝트 개요.txt
+		프로젝트 문서.txt = 프로젝트 문서.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +29,14 @@ Global
 		{87D46016-6968-4B22-B8DA-34546FA73FE2}.Release|x64.Build.0 = Release|x64
 		{87D46016-6968-4B22-B8DA-34546FA73FE2}.Release|x86.ActiveCfg = Release|Win32
 		{87D46016-6968-4B22-B8DA-34546FA73FE2}.Release|x86.Build.0 = Release|Win32
+		{64EB0FF2-136F-482C-A83F-41A6A99C9ECD}.Debug|x64.ActiveCfg = Debug|x64
+		{64EB0FF2-136F-482C-A83F-41A6A99C9ECD}.Debug|x64.Build.0 = Debug|x64
+		{64EB0FF2-136F-482C-A83F-41A6A99C9ECD}.Debug|x86.ActiveCfg = Debug|Win32
+		{64EB0FF2-136F-482C-A83F-41A6A99C9ECD}.Debug|x86.Build.0 = Debug|Win32
+		{64EB0FF2-136F-482C-A83F-41A6A99C9ECD}.Release|x64.ActiveCfg = Release|x64
+		{64EB0FF2-136F-482C-A83F-41A6A99C9ECD}.Release|x64.Build.0 = Release|x64
+		{64EB0FF2-136F-482C-A83F-41A6A99C9ECD}.Release|x86.ActiveCfg = Release|Win32
+		{64EB0FF2-136F-482C-A83F-41A6A99C9ECD}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
