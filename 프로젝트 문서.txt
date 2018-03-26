@@ -1,8 +1,26 @@
+Server 관련
+
+프로젝트 설정
+
+	[프로젝트 속성]->[구성 속성]->[링커]->[입력]->[추가 종속성]에 ws2_32.lib를 추가
+	[프로젝트 속성]->[구성 속성]->[매니페스트 도구]->[입력 및 출력] ->[매니페스트 포함]을 아니요로 변경
+
 WSA 함수
 
-소켓 프로그래밍용 
-WSA 접두어가 붙은 함수로 소켓 생성과 데이터 통신에 사용
+	소켓 프로그래밍용 
+	WSA 접두어가 붙은 함수로 소켓 생성과 데이터 통신에 사용
 
-WSAStartup(), WSACleanup() WSASocket(), WSAccept(), WSAconnect(), WSASend(), WSARecv() 등등
+	WSAStartup(), WSACleanup() WSASocket(), WSAccept(), WSAconnect(), WSASend(), WSARecv() 등등
 
-TextRPG 프로젝트 에서는 WSAStartup(), WSACleanup()만 사용
+	TextRPG 프로젝트 에서는 WSAStartup(), WSACleanup()만 사용
+
+inet_addr()
+
+	SOCKADDR_IN 구조체 설정시 사용하는 함수
+	IPv6으로 넘어가면서 WS@tcpip.h 헤더 추가후 inet_addr() 대신 inet_pton() 함수 사용
+
+	또는 소켓 생성에 쓰이는 inet_addr 함수에 대한 경고를 없애줌
+	(#define _WINSOCK_DEPRECATED_NO_WARNINGS)
+
+////////////////////////////////////////////////////////////////////////////////////////
+Client 관련

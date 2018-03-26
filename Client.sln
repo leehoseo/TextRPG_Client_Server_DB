@@ -9,6 +9,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Server", "Server\Server.vcx
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C88E212E-AF29-4FDA-BD8C-AC158B117A8A}"
 	ProjectSection(SolutionItems) = preProject
+		header.h = header.h
 		프로젝트 개요.txt = 프로젝트 개요.txt
 		프로젝트 문서.txt = 프로젝트 문서.txt
 	EndProjectSection
